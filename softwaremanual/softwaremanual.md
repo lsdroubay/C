@@ -46,7 +46,7 @@ end of the second value).
 
 **Implementation/Code:** The following is the code for smaceps()
 
-```clike
+```c_cpp
 #include <iostream>
 
 using namespace std;
