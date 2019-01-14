@@ -37,7 +37,8 @@ value and the second is an integer.
 
 Output from the lines above:
 
-      24   5.96046448E-08
+      24   
+      5.96046448E-08
 
 The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
 decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
