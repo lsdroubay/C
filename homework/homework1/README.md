@@ -1,6 +1,6 @@
-##Homework Set 1
+## Homework Set 1
 
-###Tasks
+### Tasks
 
 [Task 1](https://lsdroubay.github.io/math5610/homework/homework1)
 [Task 2](https://lsdroubay.github.io/math5610/homework/homework1)
