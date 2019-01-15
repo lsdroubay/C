@@ -3,10 +3,10 @@
 ### Tasks
 
 * [Task 1](https://lsdroubay.github.io/math5610/homework/homework1)
-* [Task 2](https://lsdroubay.github.io/math5610/homework/homework1)
-* [Task 3](https://lsdroubay.github.io/math5610/homework/homework1)
-* [Task 4](https://lsdroubay.github.io/math5610/homework/homework1)
-* [Task 5](https://lsdroubay.github.io/math5610/homework/homework1)
+* [Task 2](https://lsdroubay.github.io/math5610)
+* [Task 3](https://lsdroubay.github.io)
+* [Task 4](https://lsdroubay.github.io/math5610/softwaremanual)
+* [Task 5](https://lsdroubay.github.io/math5610/homework)
 * [Task 6](https://lsdroubay.github.io/math5610/homework/homework1)
 * [Task 7](https://lsdroubay.github.io/math5610/homework/homework1)
 * [Task 8](https://lsdroubay.github.io/math5610/homework/homework1)
