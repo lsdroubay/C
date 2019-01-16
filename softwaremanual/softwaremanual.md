@@ -19,8 +19,7 @@ better
 in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
 usually will need to be run one time for each computer.
 
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
+**Input:** There are no inputs needed in this case. 
 
 **Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
 computer being queried.
@@ -108,3 +107,4 @@ float smaceps()
 }
 ```
 **Last Modified:** January/2019
+
