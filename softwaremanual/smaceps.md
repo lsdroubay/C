@@ -25,12 +25,9 @@ computer being queried.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+A floating point integer is initialized and given the value found using the smaceps subroutine. This value is then output using `<cout>`
 
-      double smac = smaceps()
+      float smac = smaceps()
       cout << smac;
 
 Output from the lines above:
