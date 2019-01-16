@@ -21,7 +21,7 @@ better
 
 **Usage/Example:**
 
-The number of rows and columns is input. For example, this code would create a 3x5 matrix. The function is then called using pointers for a float array to create the matrix. The result is output using `<cout>`.
+The number of rows and columns is input. For example, this code would create a 3x5 matrix. The function is then called using pointers for a float array to create the matrix. The result is output by printing to screen the value of each cell.
 
   // row and col of matrix
   int row = 3;
