@@ -7,6 +7,6 @@ course is [Joe Koebbe](http://www.math.usu.edu/~koebbe).
 ### Homework Set
 
 
-1. [Homework 1](https://jvkoebbe.github.io/math5610/homework/homework1)
+1. [Homework 1](https://lsdroubay.github.io/math5610/homework/homework1)
 2. [Homework 2]
 3. [Homework 3]
