@@ -1,4 +1,3 @@
-# Math 5610 Computational Linear Algebra Software Manual
 
 **Routine Name:**           smaceps
 
