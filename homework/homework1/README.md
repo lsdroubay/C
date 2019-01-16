@@ -11,4 +11,4 @@
 * [Task 7](https://lsdroubay.github.io/math5610/homework/homework1)
 * [Task 8](https://lsdroubay.github.io/math5610/homework/homework1/task8)
 * [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/softwaremanual)
-* [Task 10](https://lsdroubay.github.io/math5610/homework/homework1)
+* [Task 10](https://lsdroubay.github.io/math5610/homework/homework1/task10)
