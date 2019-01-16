@@ -8,7 +8,7 @@
 * [Task 4](https://lsdroubay.github.io/math5610/softwaremanual/softwaremanual)
 * [Task 5](https://lsdroubay.github.io/math5610/homework)
 * [Task 6](https://lsdroubay.github.io/math5610/homework/homework1/task6.png)
-![GitHub Logo]((https://lsdroubay.github.io/math5610/homework/homework1/task6.png))
+![GitHub Logo](https://lsdroubay.github.io/math5610/homework/homework1/task6.png)
 Format: ![Alt Text](url)
 * [Task 7](https://lsdroubay.github.io/math5610/homework/homework1)
 * [Task 8](https://lsdroubay.github.io/math5610/homework/homework1/task8)
