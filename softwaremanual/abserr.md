@@ -13,7 +13,7 @@ better
 
     gcc -o AbsErr AbsErr.cpp
 
-**Description/Purpose:** Implement a method/routine that computes and returns the absolute error in the approximation of 
+**Description/Purpose:** Computes and returns the absolute error in the approximation of 
 a number x by another number y.
 
 **Input:** A double precision value and another that represents an approximation of that value.
@@ -28,17 +28,16 @@ Two double-precision numbers are initialized
 double real = 5.667;
 double approx = 5.5;
 ```
-A pointer array is initialized. It is then given the value of the sums of the two vectors by calling SumVecs.
+Call routine to find absolute error.
 
 ```c_cpp
-float* Z;
-Z = ScaleVec(T, S);
+double error = AbsErr(approx, real);
 ```
 
-Using a for-loop to print this vector, G, the following is ouput.
+Printing the results yields
 
 ```c_cpp
-[20, 15, -125, 5]
+0.167
 ```
 
 **Implementation/Code:** The following is the code for ScaleVec()
@@ -48,22 +47,19 @@ Using a for-loop to print this vector, G, the following is ouput.
 
 using namespace std;
 
-float* ScaleVec(float a[], float s)
+double AbsErr(double x, double y)
 {
-  //
-  int VecSize = sizeof(a);
+  // initialize value for error
+  double err;
+  
+  /*
+  absolute error is the absolute value of the
+  difference of the values 
+  */
+  err = abs(y - x);
 
-  //Vector to be output
-  float* v = a;
-
-  //for-loop to multiply idividual elements of the vector, a, by the scalar, s
-  for (int i = 0; i < VecSize; i++)
-  {
-    v[i] = a[i] * s;
-  }
-
-  //return vector that contains the scaled vector
-  return v;
+  //return value
+  return err;
 }
 ```
 **Last Modified:** January/2019
