@@ -40,7 +40,7 @@ Printing the results yields
 0.167
 ```
 
-**Implementation/Code:** The following is the code for ScaleVec()
+**Implementation/Code:** The following is the code for AbsErr()
 
 ```c_cpp
 #include <iostream>
