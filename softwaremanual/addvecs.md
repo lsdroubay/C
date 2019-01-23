@@ -25,24 +25,24 @@ will determine the size of the output matrix.
 Two single-precision float arrays are assigned and given values. A constant value integer is assigned a value that will be 
 the length of the output vector.
 
-'''c_cpp
+```c_cpp
 const int Asize = 4;
 float S[Asize] = { 1, 2, 33, 4 };
 float T[Asize] = { 4, 3, -28, 1 };
-'''
+```
 A pointer array is initialized. It is then given the value of the sums of the two vectors by calling SumVecs.
 Output from the lines above:
 
-'''c_cpp
+```c_cpp
 float* G;
 G=SumVecs(S,T,Asize);
-'''
+```
 
 Using a for-loop to print this vector, G, the following is ouput.
 
-'''c_cpp
+```c_cpp
 [5, 5, 5, 5]
-'''
+```
 
 **Implementation/Code:** The following is the code for SumVecs()
 
