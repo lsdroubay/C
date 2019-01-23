@@ -58,13 +58,13 @@ float* ScaleVec(float a[], float s)
   //Vector to be output
   float* v = a;
 
-  //for-loop to sum individual elements of the two vectors, a and b, at index i
+  //for-loop to multiply idividual elements of the vector, a, by the scalar, s
   for (int i = 0; i < VecSize; i++)
   {
     v[i] = a[i] * s;
   }
 
-  //return vector that contains the individual sums
+  //return vector that contains the scaled vector
   return v;
 }
 ```
