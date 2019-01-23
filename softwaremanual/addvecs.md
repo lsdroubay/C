@@ -31,7 +31,6 @@ float S[Asize] = { 1, 2, 33, 4 };
 float T[Asize] = { 4, 3, -28, 1 };
 ```
 A pointer array is initialized. It is then given the value of the sums of the two vectors by calling SumVecs.
-Output from the lines above:
 
 ```c_cpp
 float* G;
