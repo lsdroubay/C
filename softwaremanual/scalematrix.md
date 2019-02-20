@@ -72,28 +72,35 @@ Results printed using `cout` and two `for` loops
 0  4.5  0
 ```
 
-**Implementation/Code:** The following is the code for l1-norm()
+**Implementation/Code:** The following is the code for ScaleMat()
 
 ```c_cpp
 #include <iostream>
 
 using namespace std;
 
-double l1_norm(double v[])
+double** ScaleMat(double **a, double scale, int r, int c)
 {
-  //initialize to be summed every iteration
-  double sum = 0.0;
+  // create 2D array using pointers
+  double** Mat;
+  Mat = new double*[r];
 
-  //get size of vector
-  int n = sizeof(v);
-
-  //sum the absolute value of each vector element
-  for (int i = 0; i < n; i++)
+  for (int h = 0; h < r; h++)
   {
-    sum = sum + abs(v[i]);
+    Mat[h] = new double[c];
   }
 
-  return sum;
+  //going through each cell and multiplying by scalar
+  for (int i = 0; i < r; i++)
+  {
+    for (int j = 0; j < c; j++)
+    {
+      Mat[i][j] = a[i][j] * scale;
+    }
+  }
+
+  //return matrix
+  return Mat;
 }
 ```
 **Last Modified:** February/2019
