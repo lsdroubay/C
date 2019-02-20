@@ -14,7 +14,7 @@ will produce an executable **./a.exe** than can be executed.
 
 **Input:** A double precision array.
 
-**Output:** This routine returns the 1-norm of the array.
+**Output:** This routine returns a double, the 1-norm of the array.
 
 **Usage/Example:**
 
@@ -35,7 +35,7 @@ Printing the results yields
 10
 ```
 
-**Implementation/Code:** The following is the code for l2-norm()
+**Implementation/Code:** The following is the code for l1-norm()
 
 ```c_cpp
 #include <iostream>
