@@ -2,8 +2,7 @@
 
 This folder contains homeworks tasks and associated files.
 [USU](http://www.usu.edu/). 
-The instructor for this
-course is [Joe Koebbe](http://www.math.usu.edu/~koebbe).
+The instructor for this course is [Joe Koebbe](http://www.math.usu.edu/~koebbe).
 
 ### Homework Set
 
