@@ -7,7 +7,7 @@
 * [Task 3](https://lsdroubay.github.io/math5610/softwaremanual/inferror)
 * [Task 4]
 * [Task 5]
-* [Task 6]
+* [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/dotproduct)
 * [Task 7]
 * [Task 8]
 * [Task 9]
