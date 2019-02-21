@@ -26,7 +26,7 @@ const int Asize = 5;
 double S[Asize] = { 1, 2, 7, 4, 1 };
 double T[Asize] = { 4, 2, -2, 3, 2 };
 ```
-Call routine to find error.
+Call routine to find dot product.
 
 ```c_cpp
 double E;
