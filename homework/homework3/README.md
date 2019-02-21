@@ -8,7 +8,7 @@
 * [Task 4]
 * [Task 5]
 * [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/dotproduct)
-* [Task 7]
+* [Task 7](https://lsdroubay.github.io/math5610/softwaremanual/crossproduct)
 * [Task 8]
 * [Task 9]
 * [Task 10]
