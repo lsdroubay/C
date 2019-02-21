@@ -2,8 +2,8 @@
 
 ### Tasks
 
-* [Task 1](https://lsdroubay.github.io/math5610/softwaremanual/2norm)
-* [Task 2]
+* [Task 1](https://lsdroubay.github.io/math5610/softwaremanual/l2error)
+* [Task 2](https://lsdroubay.github.io/math5610/softwaremanual/l1error)
 * [Task 3]
 * [Task 4]
 * [Task 5]
