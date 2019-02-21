@@ -39,7 +39,7 @@ Printing the results yields
 9
 ```
 
-**Implementation/Code:** The following is the code for l2_error()
+**Implementation/Code:** The following is the code for inferror()
 
 ```c_cpp
 #include <iostream>
