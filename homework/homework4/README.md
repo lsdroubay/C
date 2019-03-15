@@ -7,7 +7,7 @@
 * [Task 3](https://lsdroubay.github.io/math5610/softwaremanual/OuterProduct)
 * [Task 4](https://lsdroubay.github.io/math5610/softwaremanual/DiagSolve)
 * [Task 5](https://lsdroubay.github.io/math5610/softwaremanual/BackSubstitution)
-* [Task 6]
+* [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/ForwardSubstitution)
 * [Task 7]
 * [Task 8]
 * [Task 9]
