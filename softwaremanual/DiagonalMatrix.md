@@ -66,7 +66,7 @@ float** DiagDomMat(int r)
 
   double sum;
 
-  // sum the absolute values of the row and create a random number that is larger
+  //sum the absolute values of the row and create a larger random number
   for(int i = 0; i < r; i++)
   { 
     sum = 0;
