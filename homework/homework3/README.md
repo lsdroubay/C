@@ -9,6 +9,6 @@
 * [Task 5](https://lsdroubay.github.io/math5610/softwaremanual/MatInfNorm)
 * [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/dotproduct)
 * [Task 7](https://lsdroubay.github.io/math5610/softwaremanual/crossproduct)
-* [Task 8]
+* [Task 8](https://lsdroubay.github.io/math5610/softwaremanual/MatrixProd)
 * [Task 9]
 * [Task 10]
