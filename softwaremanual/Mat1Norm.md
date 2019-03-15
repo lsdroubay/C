@@ -21,6 +21,9 @@ will produce an executable **./a.exe** than can be executed.
 A double-precision array is initialized
 
 ```c_cpp
+const int Row = 4;
+const int Col = 3;
+
 double S[Row][Col] =
   {
     { 1,2,3 },
