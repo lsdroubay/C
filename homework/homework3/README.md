@@ -10,5 +10,5 @@
 * [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/dotproduct)
 * [Task 7](https://lsdroubay.github.io/math5610/softwaremanual/crossproduct)
 * [Task 8](https://lsdroubay.github.io/math5610/softwaremanual/MatrixProd)
-* [Task 9]
+* [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix)
 * [Task 10]
