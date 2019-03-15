@@ -4,7 +4,7 @@
 
 * [Task 1](https://lsdroubay.github.io/math5610/softwaremanual/scalematrix)
 * [Task 2](https://lsdroubay.github.io/math5610/softwaremanual/MatrixSum)
-* [Task 3]
+* [Task 3](https://lsdroubay.github.io/math5610/softwaremanual/OuterProduct)
 * [Task 4]
 * [Task 5]
 * [Task 6]
