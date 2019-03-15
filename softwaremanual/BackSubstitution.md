@@ -56,8 +56,8 @@ double **a;
 Initialize pointer and call function to solve the diagonal system
 
 ```c_cpp
-double* DS;
-DS = DiagSolve(a, b, Row, Col);
+double* BS;
+BS = BackSubs(a, b, Row, Col);
 ```
 
 Results printed
