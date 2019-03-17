@@ -60,7 +60,7 @@ Initialize pointer and call function to solve the system
   GE = GaussElim(a, b, Row, Col);
 ```
 This routine (see below) does row reduction and then back substitution. 
-So, instead of using this routine, one could just call [RowRed()](https://lsdroubay.github.io/math5610/softwaremanual/RowReduction) and then [BackSubs()](https://lsdroubay.github.io/math5610/softwaremanual/BackSubs) to get the same results.
+So, instead of using this routine, one could just call [RowRed()](https://lsdroubay.github.io/math5610/softwaremanual/RowReduction) and then [BackSubs()](https://lsdroubay.github.io/math5610/softwaremanual/BackSubstitution) to get the same results.
 
 
 Results printed
