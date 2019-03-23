@@ -1,0 +1,6 @@
+```
+Size of matrix        Time for func      Time for inline          (*10e-6 seconds)
+10      5   34
+1000      2.22069e+06   2.47753e+06
+10000      2.48458e+09   2.65509e+09
+```
