@@ -26,13 +26,13 @@ const int Col = 4;
 
 double A[Row][Col] =
   {
-    { -2,2,3,-1 },
-    { 0,8,-2,1 },
-    { 0,0,3,-6 },
-    { 0,0,0,5 }
+    { 1,2,-1,0 },
+    { 0,1,1,-2 },
+    { 2,4,1,-3 },
+    { 1,-4,-7,-1 }
   };
 
-  double b[Row] = { 7, 14, -15, 20 };
+  double b[Row] = { 2, -3, -2, -19 };
 ```
 
 Initialize a pointer to pass to the function
@@ -66,10 +66,10 @@ So, instead of using this routine, one could just call [RowRed()](https://lsdrou
 Results printed
 
 ```c_cpp
-1
+-1
 2
+1
 3
-4
 ```
 
 **Implementation/Code:** The following is the code for GaussElim()
