@@ -78,7 +78,7 @@ Results printed
 3
 ```
 
-This function utilizes code ofr [LU Factorization](https://lsdroubay.github.io/math5610/softwaremanual/LUFactorization), [Forward Substitution](https://lsdroubay.github.io/math5610/softwaremanual/ForwardSubstitution), and [Back Substitution](https://lsdroubay.github.io/math5610/softwaremanual/BackSubstitution).
+This function utilizes code for [LU Factorization](https://lsdroubay.github.io/math5610/softwaremanual/LUFactorization), [Forward Substitution](https://lsdroubay.github.io/math5610/softwaremanual/ForwardSubstitution), and [Back Substitution](https://lsdroubay.github.io/math5610/softwaremanual/BackSubstitution).
 
 **Implementation/Code:** The following is the code for LU_Solve()
 
