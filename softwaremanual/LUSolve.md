@@ -78,8 +78,9 @@ Results printed
 3
 ```
 
-This function utilizes code ofr [LU Factorization], [Forward Substitution], and [Back Substitution].
-**Implementation/Code:** The following is the code for GaussElim()
+This function utilizes code ofr [LU Factorization](https://lsdroubay.github.io/math5610/softwaremanual/LUFactorization), [Forward Substitution](https://lsdroubay.github.io/math5610/softwaremanual/ForwardSubstitution), and [Back Substitution](https://lsdroubay.github.io/math5610/softwaremanual/BackSubstitution).
+
+**Implementation/Code:** The following is the code for LU_Solve()
 
 ```c_cpp
 #include <iostream>
