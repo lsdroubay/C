@@ -1,8 +1,7 @@
 # Math 5610 Computational Linear Algebra Software Manual
 
 ## Routines
-* [Single Machine Precision](https://lsdroubay.github.io/math5610/softwaremanual/smaceps)
-* [Double Machine Precision](https://lsdroubay.github.io/math5610/softwaremanual/dmaceps)
+
 * [Random Matrix](https://lsdroubay.github.io/math5610/softwaremanual/randmat)
 * [Adding Two Vectors](https://lsdroubay.github.io/math5610/softwaremanual/addvecs)
 * [Multiply Vector by Scalar](https://lsdroubay.github.io/math5610/softwaremanual/scalevec)
