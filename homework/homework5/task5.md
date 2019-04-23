@@ -9,3 +9,4 @@ double** MM = SPD(row);
 
 Chol(MM, row, row);
 ```
+Results:
