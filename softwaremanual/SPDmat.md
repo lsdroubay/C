@@ -34,7 +34,8 @@ Printed output from the lines above:
 ```
 
 Using the simple `rand()` function does not create a truly random number. Rerunning the code above produces the exact same matrix. To obtain different results, the routines used to create a value to each cell would need to be modified.
-The functions for [Transpose] of a matrix and [Matrix Multiplication] are utilized to create the matrix.
+The function creates an SPD matrix by multiply a random matrix by it's transpose. Results can be tested by running a [Cholesky Decomposition](https://lsdroubay.github.io/math5610/softwaremanual/Cholesky), which only works for SPD matrices.
+The functions for [Transpose](https://lsdroubay.github.io/math5610/softwaremanual/Transpose) of a matrix and [Matrix Multiplication](https://lsdroubay.github.io/math5610/softwaremanual/MatrixProd) are utilized to create the matrix.
 
 **Implementation/Code:** The following is the code for SPD()
 
