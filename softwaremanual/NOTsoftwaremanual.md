@@ -5,7 +5,7 @@
 * [Random Matrix](https://lsdroubay.github.io/math5610/softwaremanual/randmat)
 * [Adding Two Vectors](https://lsdroubay.github.io/math5610/softwaremanual/addvecs)
 * [Multiply Vector by Scalar](https://lsdroubay.github.io/math5610/softwaremanual/scalevec)
-* [Multiply Matrix by Scalar](https://lsdroubay.github.io/math5610/softwaremanual/scalematrix)
+
 * [Vector 1-Norm](https://lsdroubay.github.io/math5610/softwaremanual/1norm)
 * [Vector 2-Norm](https://lsdroubay.github.io/math5610/softwaremanual/2norm)
 * [Vector Infinity Norm](https://lsdroubay.github.io/math5610/softwaremanual/infnorm)
