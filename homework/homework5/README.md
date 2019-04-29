@@ -10,5 +10,5 @@
 * [Task 6](https://lsdroubay.github.io/math5610/softwaremanual/NormalLeastSquare)
 * [Task 7]
 * [Task 8]
-* [Task 9]
+* [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix)
 * [Task 10]
