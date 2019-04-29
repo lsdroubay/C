@@ -36,7 +36,7 @@ double A[Row][Col] =
   double b[Row] = { 4, -2, 5, -2, 1 };
 ```
 
-Initialize pointers to pass L and U to the function
+Initialize pointers to pass matrix to the function
 
 ```c_cpp
   double **a;
@@ -54,7 +54,7 @@ Initialize pointers to pass L and U to the function
   }
 ```
 
-Initialize pointer and call function to solve the system
+Initialize pointer and call function to solve the LS problem
 
 ```c_cpp
   double* XX;
@@ -75,32 +75,51 @@ This function utilizes code for [Cholesky Decomposition](https://lsdroubay.githu
 
 ```c_cpp
 #include <iostream>
+#include <LandonLinear>
 
 using namespace std;
 
-double* LU_Solve(double **U, double **L, double b[], int r, int c)
+double* NormLS(double **A, double b[], int r, int c)
 {
-  LU_Fac(U, L, r, c);
+  //B= A^T * A
+  double** AT = Transpose(A, r, c);
 
-  //initialize y vector for solving intermediate step
-  double* y;
-  y = new double[r];
-
-  //initialize x vector for solving final step
-  double* X;
-  X = new double[r];
+  double** B = MatProd(AT, A, c, r, r, c);
   
-  //solve with forward substitution
-  y = ForSubs(L, b, r, c);
+  //y = A^T * b
+  double* y = MatXVec(AT, b, c, r, r);
+  
+  //Cholesky Decomp of B
+  Chol(B, c, c);
 
-  //now get x with back substitution
-  X = BackSubs(U, y, r, c);
+  double** BT = Transpose(B, c,c);
 
-  //deleting the new to avoid memory leaks
+  //Solve Bz = y
+  double* z = ForSubs(B, y, c, c);
+
+  //Solve B^T * x = z
+  double* X = BackSubs(BT, z, c, c);
+
+  
+  // important: clean up memory
+    for (int h = 0; h < c; h++)
+    {
+      delete[] AT[h];
+      delete[] B[h];
+      delete[] BT[h];
+    }
+  delete[] AT;
+  delete[] B;
+  delete[] BT;
   delete[] y;
+  delete[] z;
+  AT = 0;
+  B = 0;
+  BT = 0;
   y = 0;
+  z = 0;
 
-  //output
+  //return array, X
   return X;
 }
 ```
