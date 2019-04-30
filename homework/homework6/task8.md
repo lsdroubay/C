@@ -1,4 +1,4 @@
-## Task 7
+## Task 8
 
 [Gauss-Seidel](https://lsdroubay.github.io/math5610/softwaremanual/GaussSeidel) and [Jacobi iteration](https://lsdroubay.github.io/math5610/softwaremanual/JacobiIteration) methods are compared
 for a max tolerance of 10e-5. [DiagDomMat](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix) was used to create a random diagonally dominant A matrix. A is multiplied by a known x
