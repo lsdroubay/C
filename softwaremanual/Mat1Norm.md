@@ -83,7 +83,7 @@ double Mat1Norm(double **a, int r, int c)
 
     for (int i = 0; i < r; i++)
     {
-      sum = sum + a[i][j];
+      sum = sum + abs(a[i][j]);
     }
 
     if (sum > max)
