@@ -3,10 +3,11 @@
 
 ```
 Rows      Gauss time    Jac time
-5          4            19
-100        2574         720
-700        800874       30263
-1200       4.03131e+06  86986
-3000       6.92659e+07  716111
+5          3            798
+100        2700         224508
+700        841766       9.9611e+06
+1200       4.26629e+06  3.5095e+07
+3000       7.73809e+07  2.15074e+08
 ```
-Using `<chrono>` to time, Jacobi seems to be faster after not much increae in system size.
+Using `<chrono>` to time, Jacobi never seems to be faster. The times were getting closer,
+leading me to think that for even larger systems, Jacobi would eventually be faster.
