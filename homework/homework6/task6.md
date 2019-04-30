@@ -1,4 +1,4 @@
-## Task 5
+## Task 6
 
 The [Jacobi iteration](https://lsdroubay.github.io/math5610/softwaremanual/JacobiIteration) method was implemented and tested. One of the test was done for a 
 1200 x 1200 sytem with the max number of iterations being 20 and the tolerance 10e-6; The A matrix was made with code for
