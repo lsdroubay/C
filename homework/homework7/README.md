@@ -3,7 +3,7 @@
 ### Tasks
 
 * [Task 1](https://lsdroubay.github.io/math5610/homework/homework7/task1)
-* [Task 2]
+* [Task 2](https://lsdroubay.github.io/math5610/homework/homework7/task2)
 * [Task 3]
 * [Task 4]
 * [Task 5]
