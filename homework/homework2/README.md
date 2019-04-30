@@ -11,4 +11,4 @@
 * [Task 7](https://lsdroubay.github.io/math5610/softwaremanual/1norm)
 * [Task 8](https://lsdroubay.github.io/math5610/softwaremanual/infnorm)
 * [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/symmat)
-* [Task 10]
+* [Task 10](https://lsdroubay.github.io/math5610/homework/homework2/task10)
