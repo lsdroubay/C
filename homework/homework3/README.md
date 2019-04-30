@@ -11,4 +11,4 @@
 * [Task 7](https://lsdroubay.github.io/math5610/softwaremanual/crossproduct)
 * [Task 8](https://lsdroubay.github.io/math5610/softwaremanual/MatrixProd)
 * [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix)
-* [Task 10]
+* [Task 10](https://lsdroubay.github.io/math5610/homework/homework3/task10)
