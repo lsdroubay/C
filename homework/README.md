@@ -12,3 +12,6 @@ The instructor for this course is [Joe Koebbe](http://www.math.usu.edu/~koebbe).
 3. [Homework 3](https://lsdroubay.github.io/math5610/homework/homework3)
 4. [Homework 4](https://lsdroubay.github.io/math5610/homework/homework4)
 5. [Homework 5](https://lsdroubay.github.io/math5610/homework/homework5)
+6. [Homework 6](https://lsdroubay.github.io/math5610/homework/homework6)
+7. [Homework 5](https://lsdroubay.github.io/math5610/homework/homework7)
+8. [Homework 6](https://lsdroubay.github.io/math5610/homework/homework8)
