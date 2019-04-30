@@ -1,3 +1,6 @@
+## Task 1
+
+
 ```
 Rows      Gauss time    Jac time
 5          4         19
@@ -6,3 +9,4 @@ Rows      Gauss time    Jac time
 1200          4.03131e+06         86986
 3000          6.92659e+07         716111
 ```
+Jacobi seems to be faster after not much increae in system size.
