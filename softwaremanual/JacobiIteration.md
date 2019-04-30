@@ -53,6 +53,12 @@ double **a;
   }
 ```
 
+Initialize error tolerance and max number of iterations
+```c_cpp
+  int maxit = 10;
+  double tol = 10e-6;
+```
+
 Initialize pointer and call function to solve the system
 
 ```c_cpp
@@ -63,11 +69,11 @@ Initialize pointer and call function to solve the system
 Results printed
 
 ```c_cpp
-0.993224
-1.9298
-3.05299
+1
+2
+3
 ```
-The true solution though is {1, 2, 3}.
+
 
 **Implementation/Code:** The following is the code for Jacobi()
 
@@ -75,43 +81,6 @@ The true solution though is {1, 2, 3}.
 #include <iostream>
 
 using namespace std;
-
-double* GaussElim(double **A, double b[], int r, int c)
-{
-  if (c != r)
-  {
-    cout << "Matrix must be square" << endl;
-    return 0;
-  }
-
-  //ROW REDUCTION
-  //temp to be used through each row
-  double temp;
-
-  //Factor to multiply the row above
-  double fac;
-
-  for (int k = 0; k < c - 1; k++)
-  {
-
-    for (int i = k + 1; i < r; i++)
-    {
-      fac = A[i][k] / A[k][k];
-
-      for (int j = k; j < c; j++)
-      {
-        temp = A[i][j];
-        A[i][j] = temp - (fac*A[k][j]);
-      }
-
-      b[i] = b[i] - (fac*b[k]);
-    }
-  }
-
-  //BACK SUBSTITUTION
-  // create return array using a pointer
-  double* X;
-  X = new double[r];
 
 double* Jacobi(double **A, double b[], const int r, int c, double tol, int maxit)
 {
@@ -145,14 +114,14 @@ double* Jacobi(double **A, double b[], const int r, int c, double tol, int maxit
     for (int i = 0; i < r; i++)
     {
       XNew[i] = b[i];
-      for (int j = 0; j < i - 1; j++)
+      for (int j = 0; j < r; j++)
       {
-        XNew[i] = XNew[i] - (A[i][j] * XOld[j]);
+        if (j != i)
+        {
+          XNew[i] = XNew[i] - (A[i][j] * XOld[j]);
+        }
       }
-      for (int j = i + 1; j < r; j++)
-      {
-        XNew[i] = XNew[i] - (A[i][j] * XOld[j]);
-      }
+
     }
 
     for (int i = 0; i < r; i++)
