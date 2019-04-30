@@ -11,4 +11,4 @@
 * [Task 7]
 * [Task 8]
 * [Task 9](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix)
-* [Task 10]
+* [Task 10](https://lsdroubay.github.io/math5610/homework/homework5/task10)
