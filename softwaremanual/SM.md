@@ -7,3 +7,4 @@
 * [Matrix Operations](https://lsdroubay.github.io/math5610/softwaremanual/SM_Matrix)
 * [Solve Linear Systems](https://lsdroubay.github.io/math5610/softwaremanual/SM_Linear)
 * [Least Squares](https://lsdroubay.github.io/math5610/softwaremanual/SM_LS)
+* [Eigenvalues](https://lsdroubay.github.io/math5610/softwaremanual/SM_Eig)
