@@ -5,3 +5,5 @@ The program output:
 ```
 2.85574
 ```
+
+I don't know for sure, but my research shows it should be more like 1.726.
