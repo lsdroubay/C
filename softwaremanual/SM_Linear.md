@@ -13,5 +13,5 @@ Stationary
 * [Gauss Seidel](https://lsdroubay.github.io/math5610/softwaremanual/GaussSeidel)
 
 Non-stationary
-* [Steepest Descent](https://lsdroubay.github.io/math5610/softwaremanual/SM_Linear)
+* [Steepest Descent](https://lsdroubay.github.io/math5610/softwaremanual/SteepestDescent)
 * [Conjugate Gradient](https://lsdroubay.github.io/math5610/softwaremanual/SM_Linear)
