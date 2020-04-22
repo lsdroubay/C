@@ -2,7 +2,7 @@
 
 ## Routines
 
-* [Power Method](https://lsdroubay.github.io/math5610/softwaremanual/PowerMethod)
-* [Inverse Method](https://lsdroubay.github.io/math5610/softwaremanual/InvesreMethod)
+* [Power Method](https://lsdroubay.github.io/C/softwaremanual/PowerMethod)
+* [Inverse Method](https://lsdroubay.github.io/C/softwaremanual/InverseMethod)
 * [Rayleigh Quotient]
 * [Condition Number]
