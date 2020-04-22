@@ -2,9 +2,9 @@
 
 ## Routines
 
-* [Random Matrix](https://lsdroubay.github.io/math5610/softwaremanual/randmat)
-* [Symmetric Matrix](https://lsdroubay.github.io/math5610/softwaremanual/symmat)
-* [Random Matrix](https://lsdroubay.github.io/math5610/softwaremanual/randmat)
-* [Diagonal Matrix](https://lsdroubay.github.io/math5610/softwaremanual/DiagonalMatrix)
-* [Symmetric Diagonally Dominant](https://lsdroubay.github.io/math5610/softwaremanual/SymDiagDom)
-* [Symmetric Positive Definite](https://lsdroubay.github.io/math5610/softwaremanual/SPDmat)
+* [Random Matrix](https://lsdroubay.github.io/C/softwaremanual/randmat)
+* [Symmetric Matrix](https://lsdroubay.github.io/C/softwaremanual/symmat)
+* [Random Matrix](https://lsdroubay.github.io/C/softwaremanual/randmat)
+* [Diagonal Matrix](https://lsdroubay.github.io/C/softwaremanual/DiagonalMatrix)
+* [Symmetric Diagonally Dominant](https://lsdroubay.github.io/C/softwaremanual/SymDiagDom)
+* [Symmetric Positive Definite](https://lsdroubay.github.io/C/softwaremanual/SPDmat)
