@@ -1,4 +1,4 @@
-# Math 5610 Computational Linear Algebra Software Manual
+# Computational Linear Algebra Software Manual
 
 ## Sections
 * [Machine Precision](https://lsdroubay.github.io/math5610/softwaremanual/SM_maceps)
