@@ -1,4 +1,3 @@
-# Math5610
+# C++
 
-1. [Software Manual](https://lsdroubay.github.io/math5610/softwaremanual/SM)
-2. [Homework](https://lsdroubay.github.io/math5610/homework)
+1. [Computational Linear Algebra Software Manua](https://lsdroubay.github.io/C/softwaremanual/SM)
